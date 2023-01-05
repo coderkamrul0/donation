@@ -43,7 +43,7 @@
 
 
 .amount-section{
-    height: 100vh;
+    height: 90vh;
 }
 .amount-details{
     width: 1020px;
@@ -101,4 +101,73 @@
 }
 .amount-details .buttons{
     text-align: center;
+}
+
+
+
+
+
+
+.donation-details{
+    width: 1485px;
+    margin: auto;
+}
+.donation-plan .donation-title{
+    font-size: 55px;
+    text-align: center;
+}
+.donation-plan .plan-desc{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    color: #707070;
+}
+
+.plan-items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 112px;
+}
+.plan-items .plan-item {
+    padding: 85px 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.plan-items .plan-item h3{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.plan-items .plan-item p{
+    font-size: 24px;
+    color: #707070;
+}
+
+
+
+
+.section-one-div{
+    width: 1470px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one-div .section-one-image{
+    width: 50%;
+}
+.section-one-div .section-one-image img{
+    width: 600px;
+}
+.section-one .section-one-details{
+    margin-right: 200px;
+}
+.section-one .section-one-details p{
+    margin: 50px 0;
+    font-size: 25px;
+}
+.section-one .section-one-details h1{
+    font-size: 50px;
+    font-weight: 700;
 }
